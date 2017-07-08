@@ -1,8 +1,15 @@
+# tell travis what language we're writing in
 language: node_js
+
+# tell travis to use the latest version of node
 node_js:
     - "node"
+
+# cache tells travis to keep some files between builds
 cache:
     directories:
         - "node_modules"
+
+# tells travis to run the build
 script:
-    - ./build/build.sh
+    - ./build/build_and_test.sh
