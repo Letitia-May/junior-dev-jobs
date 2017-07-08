@@ -1,6 +1,6 @@
 # JuniorDev Jobs
 
-Jobs for junior developers
+Jobs for junior developers!
 
 ### Fork & clone the repo
 
