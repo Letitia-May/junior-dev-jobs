@@ -12,4 +12,5 @@ cache:
 
 # tells travis to run the build
 script:
-    - ./build/build_and_test.sh
+    - ./build/build.sh
+    - ./build/test.sh
